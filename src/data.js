@@ -7,6 +7,15 @@ export default[
             role:"Frontend developer",
             email:"gurav.gayatri.r@gmail.com",
             github:"https://github.com/gayatrigurav93"
+            } ,
+            {key:2,
+            img:profileimg,
+            alt:"profilepic",
+            name:"Gayatri",
+            role:"Frontend developer",
+            email:"gurav.gayatri.r@gmail.com",
+            github:"https://github.com/gayatrigurav93"
             } 
+
     ]
    

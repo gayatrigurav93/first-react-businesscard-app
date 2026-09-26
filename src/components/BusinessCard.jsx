@@ -1,5 +1,5 @@
 export default function BusinessCard(props){
-    console.log(props);
+    //console.log(props);
     return(
     <div className="card">
  <img src={props.img} alt= {props.alt} width={150}/>       

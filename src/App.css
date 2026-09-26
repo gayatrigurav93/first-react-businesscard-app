@@ -4,13 +4,15 @@ padding:0;}
 
 
     .card {
-  width: 300px;
+      
+  width: 300px; /*for tab width is */
   height:auto;
   margin: 50px auto;
   padding: 20px;
   text-align: center;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
 }
 
 .card img {
@@ -38,3 +40,24 @@ cursor: pointer;}
 
 .contact:hover a {color:white;
 text-decoration: none;}
+
+/*on largescreen disply 2cards */
+.cardss{
+  display:flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap:20px;
+} 
+
+/*responsive  design*/
+
+@media (max-width:600px){
+  .card{ width:90%;
+  margin: 30px auto;
+}/*for mobile or small device use 90%of width*/
+
+  .card img{width:120px;}
+
+  
+ }
+

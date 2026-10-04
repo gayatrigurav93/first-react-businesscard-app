@@ -5,7 +5,7 @@ export default function App(){
   const entry = data.map( (info) => {
     return( <BusinessCard 
     key= {info.key}
-   img={profileimg}
+   img={info.img}
    alt={info.alt}
    name={info.name}
    role={info.role}

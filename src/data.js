@@ -1,6 +1,6 @@
 import profileimg from "./images/profileimg.jpeg"
 export default[
-        {key:1,
+        {id:1,
             img:profileimg,
             alt:"profilepic",
             name:"Gayatri",
@@ -8,7 +8,7 @@ export default[
             email:"gurav.gayatri.r@gmail.com",
             github:"https://github.com/gayatrigurav93"
             } ,
-            {key:2,
+            {id:2,
             img:profileimg,
             alt:"profilepic",
             name:"Gayatri",
